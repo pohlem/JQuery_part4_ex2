@@ -29,15 +29,15 @@
 		 });
 		note=(parseFloat(note)/5).toFixed(2);
 		if(note >=0 && note<10){
-			alert('En dessous de la moyenne');
+			alert(note+' : En dessous de la moyenne');
 		} else if(note>=10 && note<13){
-			alert('Moyen');
+			alert(note+' : Moyen');
 		} else if(note>=13 && note<16){
-			alert('Bien');
+			alert(note+' : Bien');
 		} else if(note>=16 && note<20){
-			alert('Très bien');
+			alert(note+' : Très bien');
 		} else if(note==20){
-			alert('Excellent');
+			alert(note+' : Excellent');
 		} else{
 			alert('Erreur');
 		}
